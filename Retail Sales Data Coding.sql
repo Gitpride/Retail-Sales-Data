@@ -5,10 +5,6 @@ FROM retail.sales.dataset;
 SELECT Date, `Product Category`, Quantity, `Total Amount`
 FROM retail.sales.dataset;
 
-SELECT COUNT(DISTINCT `Customer ID`) AS Number_Of_Customers
-FROM retail.sales.dataset
-WHERE Gender = 'Female';
-
 SELECT *
 FROM retail.sales.dataset
 ORDER BY `Total Amount` DESC;
